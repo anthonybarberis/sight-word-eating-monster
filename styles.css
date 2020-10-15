@@ -11,5 +11,8 @@ body {
 
 #board .food {
     height: 100px;
+    width: 100px;
     margin: 10px;
+    background-size: 100% 100%;
+    display: inline-block;
 }

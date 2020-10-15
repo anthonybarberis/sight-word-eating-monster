@@ -1,5 +1,5 @@
 function init() {
-    getImages();
+    labelFood();
 }
 
 const words = {
@@ -29,9 +29,12 @@ const words = {
     ],
 }
 
-function getImages() {
-    let foods = document.querySelectorAll(".fruit");
-    console.log(fruits);
+function labelFood() {
+    let foods = document.querySelectorAll(".food");
+    console.log(foods);
+    foods.forEach(function(element, index) {
+        element.textContent = words.orange[index];
+    })
 }
 
 window.onload = init;
