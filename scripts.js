@@ -29,6 +29,14 @@ const words = {
     ],
 }
 
+const monsters = [
+    "green",
+    "red",
+    "black",
+    "purple",
+    "blonde",
+]
+
 function labelFood() {
     let foods = document.querySelectorAll(".food");
     console.log(foods);
