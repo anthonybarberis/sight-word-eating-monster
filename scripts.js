@@ -1,5 +1,6 @@
 function init() {
     labelFood();
+    randomMonster();
 }
 
 const words = {
@@ -43,6 +44,9 @@ function labelFood() {
     foods.forEach(function(element, index) {
         element.textContent = words.orange[index];
     })
+}
+function randomMonster() {
+    document.querySelector("#monster").style = `background-image: url("images/monster${monsters[(Math.floor(Math.random() * 1000)) % 5]}.png")`
 }
 
 window.onload = init;
