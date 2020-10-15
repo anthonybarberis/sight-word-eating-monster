@@ -1,3 +1,7 @@
+function init() {
+    getImages();
+}
+
 const words = {
     orange: [
         "he",
@@ -24,3 +28,10 @@ const words = {
         "one",
     ],
 }
+
+function getImages() {
+    let foods = document.querySelectorAll(".fruit");
+    console.log(fruits);
+}
+
+window.onload = init;
