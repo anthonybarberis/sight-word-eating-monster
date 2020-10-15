@@ -1,0 +1,26 @@
+const words = {
+    orange: [
+        "he",
+        "was",
+        "for",
+        "are",
+        "on",
+        "as",
+        "with",
+        "his",
+        "they",
+        "I",
+    ],
+    yellow: [
+        "at",
+        "be",
+        "by",
+        "had",
+        "have",
+        "this",
+        "from",
+        "word",
+        "or",
+        "one",
+    ],
+}
